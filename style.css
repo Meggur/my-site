@@ -214,3 +214,35 @@ body {
 	background-color: red;
 	color: #ffffff;
 }
+
+.navbar {
+	padding: 20px;
+	margin: 0;
+	padding-top: 17px;
+	text-transform: uppercase; 
+	text-align: right;
+}
+
+.svaz {
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.rabota {
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.naviki {
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.obomne {
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
