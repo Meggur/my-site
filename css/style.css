@@ -1,0 +1,394 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	background-color: #D3D3D3;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	font-size: 18px;
+}
+
+body.switchMode {
+	background-color: #000;
+}
+
+body.switchMode .contact_form input {
+	background-color: #DCDCDC;
+}
+
+body.switchMode .contact_form textarea {
+	background-color: #DCDCDC;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+header {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100hv;
+}
+
+.header_head {
+	position: relative;
+	background-color: #191819;
+}
+
+.header_inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.header_inner .logo {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ccc;
+}
+
+.header_inner nav ul {
+	margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.header_inner nav ul li {
+	list-style-type: none;
+}
+
+.header_inner nav ul li a {
+	font-size: 14px;
+	color: #ccc;
+	display: inline-block;
+	padding: 20px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header_inner nav ul li.switch a {
+	position: relative;
+	width: 45px;
+	height: 24px;
+	border: 1px solid #ccc;
+	border-radius: 10em;
+	padding: 0;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.header_inner nav ul li.switch a:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	border-radius: 10em;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+body.switchMode .header_inner nav ul li.switch a:after {
+	left: 20px;
+}
+
+body.switchMode {
+	color: #fff;
+}
+
+.intro {
+	font-size: 20px;
+	text-align: left;
+	margin: 200px;
+	
+}
+
+.obomne {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	margin: 80px auto;
+	padding: 0 16px;
+	text-align: center;
+	font-size: 22px;
+}
+
+p {
+	padding: 10px;
+	text-align: left;
+}
+
+.skills {
+	width: 100%;
+}
+
+.skill-name {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	max-width: 928px;
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+
+.skill-bar {
+	height: 15px;
+	background: black;
+	border-radius: 10px;
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 0;
+}
+
+.skill-per {
+	height: 15px;
+	background: red;
+	border-radius: 10px;
+	position: relative;
+	animation: fillBars 2s 1;
+	box-shadow: 0 0 15px red;
+}
+
+.skill-per:before {
+	content: attr(per);
+	position: absolute;
+	padding: 4px 6px;
+	background: white;
+	border-radius: 4px;
+	font-size: 12px;
+	top: -35px;
+	right: 0;
+	transform: translate(50%);
+}
+
+@keyframes fillBars {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+.skills_info {
+  text-align: left;
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.raboti {
+	max-width: 928px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 30px;
+	text-align: left;
+}
+
+.rabotitext {
+	text-align: left;
+	padding: 50px;
+	
+}
+
+.button1 {
+	float: right;
+	padding: 6px 20px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #288be6;
+    color: #ffffff;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
+  text-align: center;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+	float: center;
+  padding-left: 30px;
+  background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icon-email-footer.svg");
+}
+
+.footer-phone {
+  padding-right: 80px;
+  float: center;
+  padding-left: 30px;
+  background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icon-phone-footer.svg");
+}
+
+.button2 {
+	margin: 10px;
+	float: right;
+	padding: 10px 10px;
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 50px;
+	background-color: red;
+	color: #ffffff;
+}
+
+.social-body{
+	position:fixed;
+	top:50%;
+	left:0;
+	margin-top:-70px;
+	z-index:999;
+}
+.social-body ul li{
+	display:block;
+}
+
+.social-body ul li a{
+	font-size:20px;
+	color:#fff;
+	background:#42bc7f;
+	height: 50px;
+    width: 40px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	float: left;
+	padding-left: 0px;
+	width:50px;
+}
+
+.social-body ul li a:hover{
+	width:50px;
+	transform: scale(1.2);
+}
+.social-body  ul li.VKontakte a{
+	background: #425F9C;
+	background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/vk.svg");
+}
+.social-body  ul li.Github a{
+	background: #D3D3D3;
+	background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icons8-github-54.png");
+}
+.social-body ul li.Youtube a {
+	background: #D3D3D3;
+	background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/youtube.svg");
+}
+
+.contact_form {
+	position: relative;
+	mex-width: 700px;
+	margin: 45px auto;
+	text-align: center;
+	padding: 0 230px;
+}
+
+.contact_form form input {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 20px;
+	padding: 10px 0 10px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background-color: #FFFAFA;
+}
+
+.contact_form form textarea {
+	width: 100%;
+	font-size: 18px;
+	border: 1px solid #333;
+	border-radius: 3px;
+	padding: 10px 0 10px 30px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FFFAFA;
+}
+
+.contact_form form button {
+	background-color: #f03b3a;
+	color: #fff;
+	padding: 15px 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: none;
+	float: right;
+	font-size: 18px;
+}
+
+.arrowUp {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: #2E8B57;
+  -webkit-background-size: 300%;
+  background-size: 300%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 100%;
+  transition: .5s;
+}
+
+.arrowUp:hover {
+  background: #006400;
+}

@@ -1,77 +1,126 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Портфолио Junior верстальщика</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic">
-  </head>
-
-  <body>
-   <header>
-		<nav class="navbar">
-			<p><a href="#obomne" class="obomne">Обо мне</a>
-			<a href="#naviki" class="naviki">Навыки</a>
-			<a href="#rabota" class="rabota">Работы</a>
-			<a href="#svaz" class="svaz">Связаться</a>
-			<a href="https://vk.com/id424308705" target="_blank" class="button" style="float: left;">ВКонтакте</a>
-			</p>
-		</nav>
-    </header>
-	
-	<div class="container">
-    <section class="hero-image">
-      <h1 class="heading">Швенк Степан Фёдорович</h1>
-      <p>Студент Новосибирского авиационного технического колледжа имени Б. С. Галущака </p>
-	  <p>Группа ПР-21.102</p>
-    </section>
-
-    <section class="intro">
-		<figure class="user-image">
-			<img src="files/ChelTI.jpg" width="900" height="650" style="padding: 20px;" alt="Фотография Швенк Степана">
-		</figure>
-      <h3 style="text-align: center;" id="obomne">Пара предложений о себе</h3>
-      <p>Простой 16-летний студент, начинающий программист и просто очень ленивый человек.</p>
-	  <p>Несмотря на это, я уверен, что достигну чего-то в этой сфере, ведь дело я привык доводить до конца, а моя слабость станет моим главным толчком вперёд, ведь всем изестно, что лень - двигатель прогресса. </p>
-	  <p>Активно занимаюсь программированием я пару недель, соответственно возникает вопрос...</p>
-		<div class="skills">
-			<h3 style="text-align: center;" id="naviki">Чего я достиг?</h3>
-			<dl class="skills-list">
-				<dt class="skill-html">HTML</dt>
-				<dd class="level"><div style="width: 60%;">60%</div></dd>
-				<dt class="skill-css">CSS</dt>
-				<dd class="level"><div style="width: 40%;">40%</div></dd>
-				<dt class="skill-js">JS</dt>
-				<dd class="level"><div style="width: 10%;">10%</div></dd>
-			</dl>
+<head>
+<meta charset="UTF-8">
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+	<link rel="shortcut icon" href="http://1.bp.blogspot.com/-yRxtAuTfVEE/U0qqJrPPKAI/AAAAAAAAEoc/AizUMpMc6EI/s1600/Emblema_de_la_Legión_de_Reconocimiento.png">
+</head>
+<body>
+	<header>
+		<div class="header_head">
+			<div class="container">
+				<div class="header_inner">
+					<div class="logo">Степан</div>
+					<a href="https://natk.ru/stud-grad/schedule/187?group=ПР-21.102" class="button2" target="_blank">Моё расписание</a>
+					<nav>
+						<ul>
+							<li><a href="#obomne">Обо мне</a></li>
+							<li><a href="#naviki">Навыки</a></li>
+							<li><a href="#svaz">Связь</a></li>
+							<li><a href="#rabota">Работы</a></li>
+							<li class="switch"><a href="#switch"></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
-		<p>На HTML у меня ушло больше всего времени, ведь это - основа всего сайта.<br>
-		CSS я пока не успел изучить вдоль и поперёк, но уже могу использовать основные стили.<br>
-		JS остался почти мной не тронул, знаю всего несколько команд, но вряд ли смогу применить их на практике
-		</p>
-		<p>В общем, всех гетов HTML и свойств CSS наизусть я пока не знаю, но написать простой сайт уже точно смогу<p>
-    </section>
-
-    <section class="portfolio">
-      <h2 class="subheading" id="rabota">Мои работы(а)</h2>
-		<figure class="project-image">
-		<img src="files/project.jpg">
-		</figure>
-      <h3>Основы HTML и CSS</h3>
-      <p>Это мой первый сайт, который я создал, основываясь на своём опыте в изучени HTML и CSS.<br> 
-		Он является контейнером для переосмысленных и закомплектованных мною знаний в этой области.<br>
-		Создавал я его для того, чтобы помочь начинающим программистам в изучении чего-то нового или укреплении их уже имеющихся знаний.
-	  </p>
-	  <a class="button" href="source/project/index.html" target="_blank">Открыть ссылку</a>
-	  <p>К сожалению, этот проект является первой и единственной моей работой на данный момент :(</p>
-    </section>
-	
-	<div class="container">	
-    <footer class="page-footer" id="svaz">
-        <a href="mailto:shvenk.stepan@mail.ri" class="footer-email">shvenk.stepan@mail.ru</a>
-		<a href="tel:+79231594325"class="footer-phone">+7 923 159 43 25</a>
-		<a href="https://natk.ru/stud-grad/schedule/187?group=ПР-21.102" class="button2" target="_blank">Моё расписание</a>
-    </footer>
+	</header>
+	<div class="intro">
+		<img src="files/ChelTI.jpg" width="450" height="350" style="padding: 10px; border-radius: 50%; float: right; margin: 20px;" alt="Фотография Швенк Степана">
+		<h1>Швенк Степан Фёдорович</h1>
+		<p>Студент Новосибирского авиационного технического колледжа имени <br>Б. С. Галущака </p>
+		<p>Группа ПР-21.102</p>
 	</div>
-  </body>
+		<a href="#" class="arrowUp">
+		<i class="fas fa-arrow-up"></i>
+	</a>
+	<div class="social-body">
+			<ul>
+				<li class="VKontakte"><a href="https://vk.com/id424308705" target="_blank"><i class="fa fa-vkontakte"></i></a></li>
+				<li class="Github"><a href="https://github.com/Meggur" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li class="Youtube"><a href="https://www.youtube.com/channel/UCZ6V9njJfKp76hUZrnAg3og" target="_blank"><i class="fa fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	<div class="obomne">
+	 <h3 id="obomne">Пара предложений о себе</h3>
+      <p>Простой 16-летний студент, начинающий программист и просто очень ленивый человек.</p>
+	  <p>Несмотря на это, я уверен, что достигну чего-то в этой сфере, ведь дело я привык доводить до конца, а моя слабость станет моим главным толчком вперёд, ведь всем изестно, что<br> лень - двигатель прогресса. </p>
+	  <p>Активно занимаюсь программированием я пару недель, соответственно возникает вопрос...</p>
+	</div>
+	<div>
+		<h3 style="text-align: center;" id="naviki">Чего я достиг?</h3>
+			<div class="skills">
+				<div class="skill">
+					<div class="skill-name">HTML</div>
+					<div class="skill-bar">
+						<div class="skill-per" per="90%" style="max-width: 90%;"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-name">CSS</div>
+					<div class="skill-bar">
+						<div class="skill-per" per="70%" style="max-width: 70%;"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-name">Javascript</div>
+					<div class="skill-bar">
+						<div class="skill-per" per="20%" style="max-width: 20%;"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-name">PHP</div>
+					<div class="skill-bar">
+						<div class="skill-per" per="20%" style="max-width: 20%;"></div>
+				</div>
+				<div class="skill">
+					<div class="skill-name">Photoshop</div>
+					<div class="skill-bar">
+						<div class="skill-per" per="50%" style="max-width: 50%;"></div>
+				</div>
+			</div>
+		<div class="skills_info">
+			<p>На HTML у меня ушло больше всего времени, ведь это - основа всего сайта.<br>
+			CSS я пока не успел изучить вдоль и поперёк, но уже могу использовать основные стили.<br>
+			JS остался почти мной не тронул, знаю всего несколько команд, но вряд ли смогу применить их на практике.
+			</p>
+			<p>В общем, всех гетов HTML и свойств CSS наизусть я пока не знаю, но написать простой сайт уже точно смогу.<p>
+		</div>
+		<div class="svaz">
+			<h3 id="svaz">Связь</h3>
+			<div class="contact_form">
+				<form action="">
+					<input type="text" placeholder="Ваше имя">
+					<input type="text" placeholder="Ваша почта">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+					<button type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+		</div>
+		<div class="raboti">
+		<h3 class="subheading" id="rabota">Мои работы(а)</h3>
+			<figure class="project-image">
+			<img src="files/project.jpg">
+			</figure>
+			<h4>Основы HTML и CSS <a class="button1" href="source/project/index.html" target="_blank">Открыть ссылку</a></h4>
+		<div class="rabotitext">
+      <p>Это мой первый сайт, который я создал, основываясь на своём опыте в изучении HTML и CSS.</p>
+	  <p>Он является контейнером для переосмысленных и закомплектованных мною знаний в этой области.</p>
+	  <p>Создавал я его для того, чтобы помочь начинающим программистам в изучении чего-то нового или укреплении их уже имеющихся знаний.
+	  </p>
+	  <p>К сожалению, этот проект является первой и единственной моей работой на данный момент :(</p>
+	  </div>
+	</div>
+	<footer class="page-footer">
+			<a href="mailto:shvenk.stepan@mail.ri" class="footer-email">shvenk.stepan@mail.ru</a>
+			<a href="tel:+79231594325"class="footer-phone">+7 923 159 43 25</a>
+	</footer>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+
 </html>
