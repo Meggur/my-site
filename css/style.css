@@ -261,14 +261,12 @@ h4 {
 .footer-email {
 	float: center;
   padding-left: 30px;
-  background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icon-email-footer.svg");
 }
 
 .footer-phone {
   padding-right: 80px;
   float: center;
   padding-left: 30px;
-  background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icon-phone-footer.svg");
 }
 
 .button2 {
@@ -318,15 +316,12 @@ h4 {
 }
 .social-body  ul li.VKontakte a{
 	background: #425F9C;
-	background-image: url("img/vk.svg");
 }
 .social-body  ul li.Github a{
 	background: #D3D3D3;
-	background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/icons8-github-54.png");
 }
 .social-body ul li.Youtube a {
 	background: #D3D3D3;
-	background-image: url("C:/Users/User/Desktop/Степан/Сайт/img/youtube.svg");
 }
 
 .contact_form {
