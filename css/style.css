@@ -29,11 +29,7 @@ body.switchMode .contact_form textarea {
 	background-color: #DCDCDC;
 }
 
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
+
 
 header {
 	position: relative;
@@ -131,8 +127,6 @@ body.switchMode {
 }
 
 .obomne {
-  max-width: 928px;
-  margin: 0 auto;
   padding: 0 16px;
   text-align: center;
 }
@@ -170,8 +164,6 @@ p {
 	height: 15px;
 	background: black;
 	border-radius: 10px;
-	max-width: 900px;
-	margin: 20px auto;
 	padding: 0;
 }
 
@@ -205,16 +197,12 @@ p {
 	}
 }
 
-.skills_info {
-  text-align: left;
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
+.skills_info p {
+	text-align: left;
+	margin: 50px auto;
 }
 
 .raboti {
-	max-width: 928px;
-  margin: 0 auto;
   padding: 0 20px;
   text-align: center;
 }
@@ -248,6 +236,8 @@ h4 {
   background-color: #00417d;
   color: #ffffff;
   text-align: center;
+  width: 100%;
+  margin: 0;
 }
 
 .page-footer a {
@@ -326,8 +316,6 @@ h4 {
 
 .contact_form {
 	position: relative;
-	mex-width: 700px;
-	margin: 45px auto;
 	text-align: center;
 	padding: 0 230px;
 }
@@ -363,6 +351,7 @@ h4 {
 	border: none;
 	float: right;
 	font-size: 18px;
+	
 }
 
 .arrowUp {
@@ -386,4 +375,9 @@ h4 {
 
 .arrowUp:hover {
   background: #006400;
+}
+
+.container {
+	max-width: 928px;
+	margin: 0 auto;
 }
