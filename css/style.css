@@ -238,6 +238,9 @@ h4 {
   background-color: #00417d;
   color: #ffffff;
   text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
 
 .page-footer a {
@@ -249,7 +252,7 @@ h4 {
 }
 
 .footer-email {
-	float: center;
+  float: center;
   padding-left: 30px;
 }
 
