@@ -369,6 +369,7 @@ h4 {
   font-size: 30px;
   border-radius: 100%;
   transition: .5s;
+  z-index: 999999;
 }
 
 .arrowUp:hover {
