@@ -120,7 +120,7 @@ body.switchMode {
 }
 
 body.switchMode .skill-bar {
-	background: white; 
+	background: #DCDCDC; 
 }
 
 body.switchMode .skill-per:before {
