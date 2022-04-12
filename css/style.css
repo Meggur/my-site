@@ -119,6 +119,14 @@ body.switchMode {
 	color: #fff;
 }
 
+body.switchMode .skill-bar {
+	background: white; 
+}
+
+body.switchMode .skill-per:before {
+	color: black;
+}
+
 .intro {
 	font-size: 20px;
 	text-align: left;
@@ -132,7 +140,7 @@ body.switchMode {
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 }
 
 h3 {
