@@ -29,7 +29,7 @@
 		</div>
 	</header>
 	<div class="intro">
-		<img src="files/ChelTI.jpg" width="450" height="350" style="position: relative; top: -25px; padding: 10px; border-radius: 20%; float: right; margin: 20px;" alt="Фотография Швенк Степана">
+		<img src="files/ChelTI.jpg" width="450" height="350" style="position: relative; top: -50px; padding: 10px; border-radius: 20%; float: right; margin: 20px;" alt="Фотография Швенк Степана">
 		<h1 style="text-align: left;">Швенк Степан Фёдорович</h1>
 		<p>Студент Новосибирского авиационного технического колледжа имени <br>Б. С. Галущака </p>
 		<p>Группа ПР-21.102</p>
@@ -89,11 +89,13 @@
 		<div class="svaz container">
 			<h3 id="svaz">Связь</h3>
 			<div class="contact_form container">
-				<form action="">
-					<input class="container" type="text" placeholder="Ваше имя">
-					<input class="container" type="text" placeholder="Ваша почта">
+				<form action="" id="form" name="form">
+					<input class="container" type="text" id="name" name="name" data-reg="^[А-ЯЁ][а-яё]*$" placeholder="Ваше имя">
+					<input class="container" type="text" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" placeholder="Ваша почта">
 					<textarea class="container" name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
-					<button type="submit">Отправить</button>
+					 <div class="button">
+						<input type="submit" id="button" value="Отправить" />
+					</div>
 				</form>
 			</div>
 		</div>
@@ -121,6 +123,7 @@
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/svaz.js"></script>
 </body>
 
 </html>

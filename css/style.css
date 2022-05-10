@@ -207,7 +207,7 @@ p {
 }
 
 .raboti {
-  padding: 0 20px;
+  padding: 0 0px;
   text-align: center;
 }
 
@@ -383,4 +383,19 @@ h4 {
 .container {
 	width: 928px;
 	margin: 0 auto;
+}
+.button input[type="submit"] {
+  float: right;
+  color: #fff;
+  font-size: 18px;
+  background: #3e2093;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s;
+}
+
+.button input[type="submit"]:hover {
+  background: rgb(0, 0, 207);
 }
